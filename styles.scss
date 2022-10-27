@@ -1,11 +1,13 @@
+    @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+    
     $anchor-blue: hsl(228, 45%, 44%);
     $dark-cyan: hsl(158, 36%, 37%);
     $cream: hsl(30, 38%, 92%);
     $very-dark-blue: hsl(212, 21%, 14%);
     $dark-grayish-blue: hsl(228, 12%, 48%);
     $white: hsl(0, 0%, 100%);
-    $sans-serif: Montserrat, sans-serif;
-    $serif: Fraunces, serif;
+    $sans-serif: 'Montserrat', sans-serif;
+    $serif: 'Fraunces', serif;
     
     body {
       background-color: $cream;
@@ -19,11 +21,17 @@
 
     .product-text {}
 
-    h1 {}
+    h1 {
+      font-family: $sans-serif;
+    }
 
-    h2 {}
+    h2 {
+      font-family: $serif;
+    }
 
-    p {}
+    p {
+      font-family: $sans-serif;
+    }
 
     .discount-price {}
 
