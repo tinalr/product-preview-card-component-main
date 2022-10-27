@@ -3,6 +3,6 @@
     "node-sass": "^6.0.1"
   },
    "scripts": {
-
+    "sass": "sass styles.scss styles.css"
   }
 }
