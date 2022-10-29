@@ -13,7 +13,9 @@
       background-color: $cream;
     }
 
-    main {}
+    .card {
+      background-color: $white;
+    }
 
     .product-img {}
 
@@ -33,9 +35,14 @@
       font-family: $sans-serif;
     }
 
-    .discount-price {}
+    .discount-price {
+      font-family: $serif;
+    }
 
-    .initial-price {}
+    .initial-price {
+      font-family: $sans-serif;
+      text-decoration: line-through;
+    }
 
     button {}
 
