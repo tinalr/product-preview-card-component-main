@@ -1,8 +1,22 @@
 {
-  "devDependencies": {
-    "node-sass": "^6.0.1"
+  "name": "product-preview-card-component-main",
+  "version": "1.0.0",
+  "description": "Coding challenge solution.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-   "scripts": {
-    "sass": "sass styles.scss styles.css"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tinalr/product-preview-card-component-main.git"
+  },
+  "author": "Christina Rontell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tinalr/product-preview-card-component-main/issues"
+  },
+  "homepage": "https://github.com/tinalr/product-preview-card-component-main#readme",
+  "dependencies": {
+    "sass": "^1.55.0"
   }
 }
