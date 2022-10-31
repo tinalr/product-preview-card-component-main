@@ -15,24 +15,26 @@
 
     .card {
       background-color: $white;
+      border-radius: 15px;
     }
 
     picture {
       max-width: 100%;
     }
 
-    .product-text {}
+    .product-content {}
 
     h1 {
-      font-family: $sans-serif;
+      font: 500 1em $sans-serif expanded;
+      text-transform: uppercase;
     }
 
     h2 {
-      font-family: $serif;
+      font: 700 1.5em $serif;
     }
 
     p {
-      font-family: $sans-serif;
+      font-family: 500 1em $sans-serif;
     }
 
     .discount-price {

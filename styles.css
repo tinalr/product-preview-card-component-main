@@ -5,6 +5,7 @@ body {
 
 .card {
   background-color: hsl(0deg, 0%, 100%);
+  border-radius: 15px;
 }
 
 picture {
@@ -12,15 +13,16 @@ picture {
 }
 
 h1 {
-  font-family: "Montserrat", sans-serif;
+  font: 500 1em "Montserrat", sans-serif expanded;
+  text-transform: uppercase;
 }
 
 h2 {
-  font-family: "Fraunces", serif;
+  font: 700 1.5em "Fraunces", serif;
 }
 
 p {
-  font-family: "Montserrat", sans-serif;
+  font-family: 500 1em "Montserrat", sans-serif;
 }
 
 .discount-price {
