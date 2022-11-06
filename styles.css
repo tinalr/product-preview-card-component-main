@@ -10,6 +10,7 @@ body {
 .card {
   background-color: hsl(0deg, 0%, 100%);
   border-radius: 15px;
+  max-width: 375px;
 }
 .card picture {
   border-radius: inherit;
@@ -22,7 +23,7 @@ body {
   border-top-right-radius: inherit;
 }
 .card .product-text .product-type {
-  font: 500 1rem "Montserrat", sans-serif;
+  font: 500 0.85rem "Montserrat", sans-serif;
   text-transform: uppercase;
   color: hsl(228deg, 12%, 48%);
   letter-spacing: 0.5em;
