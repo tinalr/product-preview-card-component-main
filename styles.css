@@ -25,6 +25,7 @@ body {
   font: 500 1rem "Montserrat", sans-serif;
   text-transform: uppercase;
   color: hsl(228deg, 12%, 48%);
+  letter-spacing: 0.5em;
 }
 .card .product-text .product-name {
   font: 700 2rem "Fraunces", serif;

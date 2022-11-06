@@ -41,9 +41,8 @@ Users should be able to:
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
+- Sass & CSS custom properties
+- Flexbox / CSS Grid
 - Mobile-first workflow
 
 **Note: These are just examples. Delete this note and replace the list above with your own choices**
@@ -51,6 +50,7 @@ Users should be able to:
 ### What I learned
 
 - HTML ```<picture>``` tag. Used to make the product image responsive; the image file changes with the size of the screen.
+- CSS ```letter-spacing``` property. Used to make the word "perfume" expanded. 
 
 To see how you can add code snippets, see below:
 
