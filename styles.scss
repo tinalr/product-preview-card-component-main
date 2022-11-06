@@ -1,5 +1,5 @@
     @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
-    
+
     $anchor-blue: hsl(228, 45%, 44%);
     $dark-cyan: hsl(158, 36%, 37%);
     $cream: hsl(30, 38%, 92%);
@@ -8,7 +8,7 @@
     $white: hsl(0, 0%, 100%);
     $sans-serif: 'Montserrat', sans-serif;
     $serif: 'Fraunces', serif;
-    
+
     body {
       background-color: $cream;
     }
@@ -16,37 +16,39 @@
     .card {
       background-color: $white;
       border-radius: 15px;
+
+
+      .product-img {
+        max-width: 100%;
+      }
+
+      .product-content {
+
+        .product-type {
+          font: 500 1em $sans-serif ultra-expanded;
+          text-transform: uppercase;
+        }
+
+        .product-name {
+          font: 700 1.5em $serif;
+        }
+
+        .product-description {
+          font-family: 500 1em $sans-serif;
+        }
+
+        .discount-price {
+          font-family: $serif;
+        }
+
+        .initial-price {
+          font-family: $sans-serif;
+          text-decoration: line-through;
+        }
+
+        // button {}
+      }
     }
-
-    picture {
-      max-width: 100%;
-    }
-
-    .product-content {}
-
-    h1 {
-      font: 500 1em $sans-serif expanded;
-      text-transform: uppercase;
-    }
-
-    h2 {
-      font: 700 1.5em $serif;
-    }
-
-    p {
-      font-family: 500 1em $sans-serif;
-    }
-
-    .discount-price {
-      font-family: $serif;
-    }
-
-    .initial-price {
-      font-family: $sans-serif;
-      text-decoration: line-through;
-    }
-
-    button {}
 
     .attribution {
       font-size: 11px;

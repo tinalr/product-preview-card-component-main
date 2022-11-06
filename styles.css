@@ -7,29 +7,23 @@ body {
   background-color: hsl(0deg, 0%, 100%);
   border-radius: 15px;
 }
-
-picture {
+.card .product-img {
   max-width: 100%;
 }
-
-h1 {
-  font: 500 1em "Montserrat", sans-serif expanded;
+.card .product-content .product-type {
+  font: 500 1em "Montserrat", sans-serif ultra-expanded;
   text-transform: uppercase;
 }
-
-h2 {
+.card .product-content .product-name {
   font: 700 1.5em "Fraunces", serif;
 }
-
-p {
+.card .product-content .product-description {
   font-family: 500 1em "Montserrat", sans-serif;
 }
-
-.discount-price {
+.card .product-content .discount-price {
   font-family: "Fraunces", serif;
 }
-
-.initial-price {
+.card .product-content .initial-price {
   font-family: "Montserrat", sans-serif;
   text-decoration: line-through;
 }

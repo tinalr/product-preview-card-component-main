@@ -50,7 +50,7 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+- Overriding browser default CSS; reviewed the specificity algorithm.
 
 To see how you can add code snippets, see below:
 
