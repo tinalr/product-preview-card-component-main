@@ -11,14 +11,14 @@ body {
   max-width: 100%;
 }
 .card .product-content .product-type {
-  font: 500 1em "Montserrat", sans-serif ultra-expanded;
+  font: 500 ultra-expanded 1em "Montserrat", sans-serif;
   text-transform: uppercase;
 }
 .card .product-content .product-name {
   font: 700 1.5em "Fraunces", serif;
 }
 .card .product-content .product-description {
-  font-family: 500 1em "Montserrat", sans-serif;
+  font: 500 1em "Montserrat", sans-serif;
 }
 .card .product-content .discount-price {
   font-family: "Fraunces", serif;

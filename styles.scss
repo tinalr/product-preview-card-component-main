@@ -25,7 +25,7 @@
       .product-content {
 
         .product-type {
-          font: 500 1em $sans-serif ultra-expanded;
+          font: 500 ultra-expanded 1em $sans-serif;
           text-transform: uppercase;
         }
 
@@ -34,7 +34,7 @@
         }
 
         .product-description {
-          font-family: 500 1em $sans-serif;
+          font: 500 1em $sans-serif;
         }
 
         .discount-price {
