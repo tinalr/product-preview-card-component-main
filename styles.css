@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap");
+html {
+  font-size: 14px;
+}
+
 body {
   background-color: hsl(30deg, 38%, 92%);
 }
@@ -11,21 +15,37 @@ body {
   max-width: 100%;
 }
 .card .product-content .product-type {
-  font: 500 ultra-expanded 1em "Montserrat", sans-serif;
+  font: 500 1rem "Montserrat", sans-serif;
   text-transform: uppercase;
+  color: hsl(228deg, 12%, 48%);
 }
 .card .product-content .product-name {
-  font: 700 1.5em "Fraunces", serif;
+  font: 700 2rem "Fraunces", serif;
+  margin-top: auto;
+  margin-bottom: auto;
+  color: hsl(212deg, 21%, 14%);
 }
 .card .product-content .product-description {
-  font: 500 1em "Montserrat", sans-serif;
+  font: 500 1rem "Montserrat", sans-serif;
+  line-height: 1.5rem;
+  color: hsl(228deg, 12%, 48%);
+  margin-bottom: 20px;
 }
 .card .product-content .discount-price {
-  font-family: "Fraunces", serif;
+  font: 700 2rem "Fraunces", serif;
+  color: hsl(158deg, 36%, 37%);
 }
 .card .product-content .initial-price {
-  font-family: "Montserrat", sans-serif;
+  font: 500 0.85rem "Montserrat", sans-serif;
+  color: hsl(228deg, 12%, 48%);
   text-decoration: line-through;
+}
+.card .product-content button {
+  background-color: hsl(158deg, 36%, 37%);
+  color: hsl(0deg, 0%, 100%);
+  font: 500 0.85rem "Montserrat", sans-serif;
+  padding: 1em;
+  border-inline-end-color: transparent;
 }
 
 .attribution {

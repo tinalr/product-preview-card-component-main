@@ -9,6 +9,10 @@
     $sans-serif: 'Montserrat', sans-serif;
     $serif: 'Fraunces', serif;
 
+    html {
+      font-size: 14px;
+    }
+
     body {
       background-color: $cream;
     }
@@ -25,28 +29,50 @@
       .product-content {
 
         .product-type {
-          font: 500 ultra-expanded 1em $sans-serif;
+          font: 500 1rem $sans-serif;
           text-transform: uppercase;
+          color: $dark-grayish-blue;
         }
 
         .product-name {
-          font: 700 1.5em $serif;
+          font: 700 2rem $serif;
+          margin-top: auto;
+          margin-bottom: auto;
+          color: $very-dark-blue;
         }
 
         .product-description {
-          font: 500 1em $sans-serif;
+          font: 500 1rem $sans-serif;
+          line-height: 1.5rem;
+          color: $dark-grayish-blue;
+          margin-bottom: 20px;
         }
 
         .discount-price {
-          font-family: $serif;
+          font: 700 2rem $serif;
+          color: $dark-cyan;
         }
 
         .initial-price {
-          font-family: $sans-serif;
+          font: 500 .85rem $sans-serif;
+          color: $dark-grayish-blue;
           text-decoration: line-through;
         }
 
-        // button {}
+        button {
+          background-color: $dark-cyan;
+          color: $white;
+          font: 500 .85rem $sans-serif;
+          padding: 1em;
+          border-inline-end-color: transparent;
+          // border-inline-start-color: transparent;
+          // width: 100%;
+          // border-block-style: none;
+          // border-radius: 8px;
+          // border-block-end-color: transparent;
+          // border-block-start-color: transparent;
+          // border-image-width: 0;
+        }
       }
     }
 

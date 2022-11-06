@@ -50,7 +50,7 @@ Users should be able to:
 
 ### What I learned
 
-- Overriding browser default CSS; reviewed the specificity algorithm.
+- HTML ```<picture>``` tag. Used to make the product image responsive; the image file changes with the size of the screen.
 
 To see how you can add code snippets, see below:
 
