@@ -15,12 +15,28 @@
 
     body {
       background-color: $cream;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
 
     .card {
       background-color: $white;
       border-radius: 15px;
-      // max-width: 375px;
+      margin: auto;
+      max-width: 686px;
+      width: 50%;
+    }
+
+      @media (min-width: 1000px){
+        .card {
+            background-color: $white;
+            border-radius: 15px;
+            margin: auto;
+            height: 75%;
+            max-height: 900px;
+          }
+        }
 
       picture {
         border-radius: inherit;
@@ -83,11 +99,12 @@
           // border-image-width: 0;
         }
       }
-    }
+    
 
     .attribution {
       font-size: 11px;
       text-align: center;
+      margin: auto;
     }
 
     .attribution a {
