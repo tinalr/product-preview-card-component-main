@@ -18,15 +18,6 @@ body {
   width: 50%;
 }
 
-@media (min-width: 1000px) {
-  .card {
-    background-color: hsl(0deg, 0%, 100%);
-    border-radius: 15px;
-    margin: auto;
-    height: 75%;
-    max-height: 900px;
-  }
-}
 picture {
   border-radius: inherit;
 }
@@ -74,6 +65,17 @@ picture {
   border-inline-end-color: transparent;
 }
 
+@media (min-width: 1000px) {
+  .card {
+    background-color: hsl(0deg, 0%, 100%);
+    border-radius: 15px;
+    margin: auto;
+    height: 75%;
+    max-height: 900px;
+    display: flex;
+    flex-direction: row;
+  }
+}
 .attribution {
   font-size: 11px;
   text-align: center;
