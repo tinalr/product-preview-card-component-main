@@ -24,8 +24,8 @@
       background-color: $white;
       border-radius: 15px;
       margin: auto;
-      max-width: 686px;
-      width: 50%;
+      //max-width: 686px;
+      width: 323px;
     }
 
       picture {
@@ -41,6 +41,8 @@
       }
 
       .product-text {
+        padding: 15px;
+
 
         .product-type {
           font: 500 .85rem $sans-serif;
@@ -96,7 +98,8 @@
     background-color: $white;
     border-radius: 15px;
     margin: auto;
-    height: 75%;
+    height: auto;
+    width: auto;
     max-height: 900px;
     display: flex;
     flex-direction: row;
