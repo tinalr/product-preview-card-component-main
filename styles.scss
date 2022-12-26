@@ -98,11 +98,17 @@
     background-color: $white;
     border-radius: 15px;
     margin: auto;
-    height: auto;
-    width: auto;
+    //height: 338px;
+    width: 650px;
     max-height: 900px;
     display: flex;
     flex-direction: row;
+  }
+  .product-img {
+    width: 325px;
+  }
+  .product-text {
+    width: 325px;
   }
 }
 
