@@ -72,6 +72,7 @@ picture {
     background-color: hsl(0deg, 0%, 100%);
     border-radius: 15px;
     margin: auto;
+    height: 465px;
     width: 650px;
     max-height: 900px;
     display: flex;
@@ -79,9 +80,10 @@ picture {
   }
   .product-img {
     width: 325px;
-  }
-  .product-text {
-    width: 325px;
+    border-top-left-radius: inherit;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: inherit;
+    height: inherit;
   }
 }
 .attribution {
