@@ -49,6 +49,7 @@ picture {
     text-transform: uppercase;
     color: $dark-grayish-blue;
     letter-spacing: .5em;
+    padding-bottom: 10px;
   }
 
   .product-name {
@@ -92,14 +93,16 @@ picture {
   }
 }
 
+//MEDIA QUERY
+
 @media (min-width: 1000px) {
 
   .card {
     background-color: $white;
     border-radius: 15px;
     margin: auto;
-    height: 465px;
-    width: 650px;
+    height: 428.05px;
+    width: 580px;
     max-height: 900px;
     display: flex;
     flex-direction: row;
@@ -110,11 +113,16 @@ picture {
     border-top-left-radius: inherit;
     border-top-right-radius: 0px;
     border-bottom-left-radius: inherit;
-    height: inherit;
+    //height: 465px;
+    flex-basis: 50%;
+    flex-grow: 1;
   }
 
   .product-text {
-    width: 325px;
+    //width: 270px; - nto having an effect
+    flex-basis: 50%;
+    padding: 25px;
+    flex-grow: 1;
   }
 }
 
