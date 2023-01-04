@@ -19,6 +19,7 @@ body {
 
 picture {
   border-radius: inherit;
+  display: flex;
 }
 
 .product-type {

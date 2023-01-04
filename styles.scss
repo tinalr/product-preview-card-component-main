@@ -30,6 +30,7 @@ body {
 
 picture {
   border-radius: inherit;
+  display: flex;
 }
 
 .product-type {
@@ -125,7 +126,6 @@ button {
     border-top-left-radius: inherit;
     border-top-right-radius: 0px;
     border-bottom-left-radius: inherit;
-    //height: 465px;
     flex-basis: 50%;
     flex-grow: 1;
   }
