@@ -60,6 +60,10 @@ button {
   font: 500 0.85rem "Montserrat", sans-serif;
   padding: 1em;
   border-inline-end-color: transparent;
+  border-inline-start-color: transparent;
+  width: 100%;
+  border-block-style: none;
+  border-radius: 8px;
 }
 
 @media (max-width: 999px) {
