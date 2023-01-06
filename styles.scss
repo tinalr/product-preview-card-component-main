@@ -56,6 +56,13 @@ picture {
   margin-bottom: 20px;
 }
 
+.product-price {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 25px;
+}
+
 .discount-price {
   font: 700 2rem $serif;
   color: $dark-cyan;

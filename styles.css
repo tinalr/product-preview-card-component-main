@@ -45,6 +45,13 @@ picture {
   margin-bottom: 20px;
 }
 
+.product-price {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .discount-price {
   font: 700 2rem "Fraunces", serif;
   color: hsl(158deg, 36%, 37%);
