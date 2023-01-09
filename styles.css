@@ -80,6 +80,10 @@ button {
   gap: 5px;
 }
 
+button:hover {
+  background-color: hsl(158deg, 36%, 17%);
+}
+
 @media (max-width: 999px) {
   .card {
     width: 323px;
