@@ -73,6 +73,11 @@ button {
   width: 100%;
   border-block-style: none;
   border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
 }
 
 @media (max-width: 999px) {
