@@ -50,6 +50,7 @@ picture {
   flex-direction: row;
   align-items: center;
   gap: 25px;
+  margin-bottom: 10px;
 }
 
 .discount-price {
@@ -120,6 +121,9 @@ button:hover {
     flex-basis: 50%;
     padding: 30px;
     flex-grow: 1;
+  }
+  .product-name {
+    padding-right: 10px;
   }
 }
 .attribution {
