@@ -29,7 +29,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Mobile Design](./screenshot.jpg)
+![Desktop Design](./screenshot.jpg)
 
 ### Links
 
