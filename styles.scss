@@ -17,6 +17,7 @@ html {
 body {
   background-color: $cream;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
@@ -163,7 +164,7 @@ button:hover {
 .attribution {
   font-size: 11px;
   text-align: center;
-  margin: auto;
+  margin: 1em;
 }
 
 .attribution a {
